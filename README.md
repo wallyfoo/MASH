@@ -4,7 +4,9 @@ This is my swing at implementing an adaptation of a classic back-of-the-notebook
 
 It's written in Vue3 + Typescript. Tooling by Vite.
 
-NGL: I probably spent more time juicing up the UI than I needed to, but it was a fun exercise and a compelling challenge. There's sound, so make sure you have your volume on.
+NGL: I probably spent more time juicing up the UI than I needed to, but it was a fun exercise and a compelling challenge.
+
+`npm run dev` for the version with sound, so make sure you have your volume on.
 
 I've tested it in Firefox, Chrome, and Safari on the latest MacOS. Didn't test it on mobile at all.
 
