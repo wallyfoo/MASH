@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineEmits, defineModel } from "vue";
+import { ref, defineModel } from "vue";
 import { delay } from "../engine/utilities";
 
 const emit = defineEmits(["rollValue", "rollClick"]);

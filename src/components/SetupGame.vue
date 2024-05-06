@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineEmits } from "vue";
+import { ref } from "vue";
 import * as _ from "lodash";
 import { delay } from "../engine/utilities";
 import { Entry } from "../engine/entry";
@@ -149,7 +149,7 @@ function enthusiasticMouthGrunt() {
                     <div
                         v-for="(selection, index) in filterPlayerSelections()"
                         :key="`selection-${currentStep}-${index}`"
-                        class="p-2 shadow-md rounded-lg text-black font-bold py-2 px-4 shadow-outline"
+                        class="p-2 shadow-md rounded-lg text-black font-bold py-2 px-4 shadow-outline bg-white"
                     >
                         {{ selection.title }}
                     </div>

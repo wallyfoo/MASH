@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, defineEmits, defineModel } from "vue";
+import { ref, defineModel } from "vue";
 import * as _ from "lodash";
 import { delay } from "../engine/utilities";
 import { Category, Categories } from "../engine/category";
