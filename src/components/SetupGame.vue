@@ -22,11 +22,11 @@ var playerSelections = ref<Entry[]>([]);
 
 function stepText(currentStep: number): string {
     if (currentStep == 0) {
-        return "First, ";
+        return "First,";
     } else if (currentStep < steps.value) {
-        return "Next, ";
+        return "Next,";
     } else {
-        return "Finally, ";
+        return "Finally,";
     }
 }
 
@@ -40,7 +40,7 @@ function choicesLeftText(): string {
 
 function instructionText(currentStep: number): string {
     if (choicesLeft.value > 0) {
-        return `Select ${choicesLeftText()} for your possible future ${stepCategory(currentStep)}...`;
+        return `${stepText(currentStep)} select ${choicesLeftText()} for your possible future ${stepCategory(currentStep)}...`;
     }
     return `You have selected your possible future ${stepCategory(currentStep)}!`;
 }

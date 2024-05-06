@@ -65,16 +65,16 @@ export var DefaultOptions: Entry[] = [
   new Entry(Categories[0], 0, "Neo", true),
   new Entry(Categories[0], 0, "Trinity", true),
   new Entry(Categories[0], 0, "Captain Marvel", true),
-  new Entry(Categories[0], 0, "Catherine Gale", false),
+  new Entry(Categories[0], 0, "Catherine Gale", true),
   new Entry(Categories[0], 0, "Dr. Paul Morrow", true),
   new Entry(Categories[0], 0, "Emma Peel", true),
   new Entry(Categories[0], 0, "Professor Bernard Quatermass", true),
   new Entry(Categories[0], 0, "John Koenig", true),
-  new Entry(Categories[0], 0, "Annie Crozier", false), // "Timeslip" (1970-1971)
+  new Entry(Categories[0], 0, "Annie Crozier", true), // "Timeslip" (1970-1971)
   new Entry(Categories[0], 0, "John Steed", true), // "The Avengers" (1961-1969)
-  new Entry(Categories[0], 0, "Samantha Briggs", false),
-  new Entry(Categories[0], 0, "Sandra Benes", false),
-  new Entry(Categories[0], 0, "Aunt Harriet", false),
+  new Entry(Categories[0], 0, "Samantha Briggs", true),
+  new Entry(Categories[0], 0, "Sandra Benes", true),
+  new Entry(Categories[0], 0, "Aunt Harriet", true),
   // Job
   new Entry(Categories[1], 0, "Dentist", true),
   new Entry(Categories[1], 0, "Veterinarian", true),
