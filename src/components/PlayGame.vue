@@ -210,9 +210,9 @@ function filterOptionsByCategory(category: Category) {
                         class="m-2 p-2"
                         :class="
                             entry == highlightObject
-                                ? 'bg-yellow-300 rounded-lg'
+                                ? 'bg-yellow-300 rounded-lg dark:text-black'
                                 : entryInFinal(entry)
-                                  ? 'bg-blue-300 rounded-lg'
+                                  ? 'bg-blue-300 rounded-lg dark:text-black'
                                   : ''
                         "
                     >
