@@ -135,7 +135,7 @@ function enthusiasticMouthGrunt() {
                         {{ option.title }}
                     </div>
                     <div
-                        class="p-2 italic font-sm text-gray-600 hover:underline hover:text-red-600 cursor-pointer"
+                        class="p-2 italic font-sm text-gray-600 dark:text-gray-200 hover:underline hover:text-red-600 cursor-pointer"
                         @click="reloadStepOptions(currentStep)"
                     >
                         ... may I please have different choices?

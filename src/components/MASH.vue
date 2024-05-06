@@ -111,7 +111,7 @@ async function endDing() {
     <!-- header -->
     <div class="mb-10">
         <div
-            class="grid grid-cols-4 gap-4 text-5xl font-semibold text-gray-600 max-w-[500px] mx-auto my-4"
+            class="grid grid-cols-4 gap-4 text-5xl font-semibold text-gray-600 max-w-[500px] mx-auto my-4 dark:text-gray-200"
         >
             <div>M</div>
             <div>A</div>
