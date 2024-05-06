@@ -67,6 +67,7 @@ function reloadStepOptions(currentStep: number) {
 async function selectOption(option: Entry) {
     if (choicesLeft.value > 0) {
         choicesLeft.value -= 1;
+        option.enabled = true; // small fix to double ensure the option is enabled when added to the player selections
         playerSelections.value.push(option);
         stepOptions.value = _.filter(
             stepOptions.value,
