@@ -1,6 +1,6 @@
 # MASH
 
-This is my swing at implementing an adaptation of a classic back-of-the-notebook classroom time-waster.
+This is my implementation of a classic back-of-the-notebook classroom time-waster.
 
 It's written in Vue3 + Typescript. Tooling by Vite.
 
